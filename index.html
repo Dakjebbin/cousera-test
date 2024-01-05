@@ -1,49 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Module 2 assingment</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            THE BOYS BRIGADE NIGERIA
+        </title>
 
-    <link rel="stylesheet" href="style.css">
-    </head>
-  <body>
+        <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    <h1>Our Menu</h1>
+            body{
+                
+                background-image: url(edit.jpg);
+                background-size: cover;
+                padding-top: 100px;
+                margin: 0;
+            }
+            p {
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 0;
+                margin-bottom: 0;
+                color: white;
+                padding-left: 4px;  
+                     
+            }
+        header{
+            height: 55px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(0, 0, 54);
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 100;
+              
+                
+        }
 
- <div class="box">
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="boxii">
-        Chicken
-    </div>
- </div>     
+        #nav{ 
+            display: flex;
+            align-items: center;
+            
+           
+        }
 
- 
- <div class="box">
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <div class="boxi">
-        beef
-    </div>
-     </div>     
+        .bb{
+                width: 30px;
+                margin-right: 6px;
+                margin-left: 12px;
+                
+            }
 
-     
- <div class="box">
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="boxiii">
-        Sushi
-    </div>
+            ul {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+               justify-content: space-between;
+                margin-right: 35px;
+                flex: 1;
+                
+              
+                max-width: 500px;
+              }
+              
+              li {
+                float: left;
+                display: flex;
+              }
+              
+              li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+              li a:hover:not(.active) {
+                background-color: #111;
+              }
+              
+              .active {
+                background-color: #04AA6D;
+              }
 
-     </div>     
-  
-  </body>
+              .right-section{
+                width: 80px;
+                display: flex;
+                justify-content: space-between;
+                margin-right:20px;
+                flex-shrink: 0 ;
+              }
+
+              .contact{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            
+            }
+
+            .main{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+                max-width: 200ch;
+                padding: 2rem;
+            }
+
+            @media(max-width: 500px) {
+                
+            }
+
+            .bb-boys{
+                width: 250px;
+            }
+
+            .main-info{
+                border-left-color:gray ;
+                border-left-width: 2px ;
+                border-left-style: solid;
+                
+            }
+
+            
+.head{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 15px;
+}
+
+.christain{
+  font-size: 38px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-left: 15px;
+  margin-bottom: 18px;
+
+}
+
+.history{
+  margin-left: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+  color: rgb(146, 144, 144);
+}
+
+        
+           .footer{
+            height: 55px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(0, 0, 54);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+          }
+        
+        </style>
+        </head>
+        <body>
+
+            <header>
+                <span id="nav">
+                    <img class="bb" src="Boys.png">
+                    <p>BOYS BRIGADE</p>
+                </span>
+              
+                <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Order</a></li>
+                <li><a href="#about">Login</a></li>
+              </ul>
+
+              <div class="right-section">
+                <button class="contact">Contact Us</button>
+              </div>
+              
+            </header>
+
+            <div class="main">
+                <div class="main-info">
+                    <p class="head">THE BOYS' BRIGADE NIGERIA </p>
+                    <h1 class="christain">The World's First <br>Uniform Christain Voluntary
+                        Organization </h1>
+                        <p class="history">The Boys Brigade was founded in glasgow on 4th 
+                            october 1883 by sir Williams Alexander Smith.<br> From this
+                            One Company formed in Scotland the BB Has Grown in to a Worldwide
+                            movement <br>having worked with millions of children and young 
+                            people for well over a century.</p>
+                </div>
+                <img class="bb-boys" src="Boys.png"> 
+            </div>
+
+            <footer class="footer">
+            
+            </footer>
+
+            <script>
+                aert('THE BOYS BRIGADE RIVERS STATE')
+            </script>
+    </body>
 </html>
