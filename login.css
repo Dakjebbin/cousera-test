@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+    body{
+        
+        background-image: url(images/edit.jpg);
+        background-size: cover;
+        padding-top: 100px;
+        margin: 0;
+    }
+    p {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        padding-left: 4px;  
+             
+    }
+header{
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 54);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+      
+        
+}
+
+#nav{ 
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.bb{
+        width: 30px;
+        margin-right: 6px;
+        margin-left: 12px;
+        
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+        margin-right: 35px;
+        flex: 1;
+        max-width: 500px;
+      }
+      
+      li {
+        float: left;
+        display: flex;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+
+      .right-section{
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-right:20px;
+        flex-shrink: 0 ;
+      }
+
+      .contact{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    
+    }
+
+    .login{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        width: 380px;
+        left: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        top: 30px;
+    }
+
+    .boys{
+        width: 50px;
+        display: flex;
+        align-items: center;
+        padding-top: 35px;
+    }
+
+    .big{
+        padding-top: 20px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    #motto{
+        color: black;
+        font-weight: lighter;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .username{
+        border-radius: 5px;
+        display: flex;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 15px;
+        
+    }
+
+    .log{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(2, 2, 77);
+        border-radius: 5px;
+    }
+
+    .create{
+        display: inline-flex;
+        
+    }
+
+    .create p{
+        display: flex;
+        font-weight: lighter;
+        font-size: 14px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
